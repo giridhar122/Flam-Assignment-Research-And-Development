@@ -12,6 +12,6 @@ $$
 
 Detailed Explanation :[Flam Assignment R & D.pdf](https://github.com/giridhar122/Flam-Assignment-Research-And-Development/blob/main/Flam%20Assignment%20R%20%26%20D.pdf)
 
-Workflow of the Problem:
+Workflow of the Problem:https://github.com/giridhar122/Flam-Assignment-Research-And-Development/blob/main/Flowchart%20(Flam).jpg
 
 
