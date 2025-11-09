@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="Page-1" id="IQ03y2XXXEFkWdSVZ8Py">
+    <mxGraphModel dx="887" dy="1022" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrNfn-yb0qoVqYgmtOfr-1" target="MrNfn-yb0qoVqYgmtOfr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-1" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrNfn-yb0qoVqYgmtOfr-2" target="MrNfn-yb0qoVqYgmtOfr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-2" value="Get the Input Data" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrNfn-yb0qoVqYgmtOfr-6" target="MrNfn-yb0qoVqYgmtOfr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-6" value="Generate t value" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrNfn-yb0qoVqYgmtOfr-8" target="MrNfn-yb0qoVqYgmtOfr-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-8" value="Estimate Intial Parameter&amp;nbsp;(θ, M, X)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrNfn-yb0qoVqYgmtOfr-10" target="MrNfn-yb0qoVqYgmtOfr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-10" value="Compute L1 Error" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="660" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="MrNfn-yb0qoVqYgmtOfr-12" target="MrNfn-yb0qoVqYgmtOfr-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="410" y="845" />
+              <mxPoint x="410" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrNfn-yb0qoVqYgmtOfr-12" target="MrNfn-yb0qoVqYgmtOfr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-12" value="Optimisation Process" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-15" value="Compute till we get least L1 score&amp;nbsp;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrNfn-yb0qoVqYgmtOfr-16" target="MrNfn-yb0qoVqYgmtOfr-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-16" value="Plot and compare with x and y parameters&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MrNfn-yb0qoVqYgmtOfr-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-20" value="Output ( θ, M, X) is finalised&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-24" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="995" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MrNfn-yb0qoVqYgmtOfr-25" value="&lt;font style=&quot;font-size: 21px;&quot;&gt;To find the values of unknown variable&amp;nbsp;(θ, M, X)&amp;nbsp;&lt;/font&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
